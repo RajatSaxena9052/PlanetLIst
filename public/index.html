@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>planets</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="planetlist">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body onload="pl()">
+        
+        <button class="tab" onclick=pl()>Planet List</button>
+        <button class="tab" onclick=hello()>Favourite List</button>
+        
+        <div id="planetlist" class="tabcontent">
+            <a id="top"></a>
+                        <h2>List of All Planets</h2>
+                        <h3>Select any planet as favourite/NotFavourite</h3>
+                        
+                        <div id="mercury" class="card">
+                            <p>Mercury</p>
+                            <img src="images/Mercury.jpg" alt="mercury" style="width:100%">
+                        <div class="container">
+                                <input type="radio" id="mercury" name="mercury" value="Favourite">
+                                <label for="mercury">Favorite</label>
+                                <input type="radio" id="mercury" name="mercury" value="NotFavourite">
+                                <label for="mercury">NotFavorite</label><br>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="venus" class="card">
+                            <p>Venus</p>
+                            <img src="images/Venus.jpg" alt="venus" style="width: 100%;">
+                            <div class="container">
+                                <input type="radio" id="venus" name="venus" value="Favourite">
+                                <label for="venus">Favorite</label>
+                                <input type="radio" id="venus" name="venus" value="NotFavourite">
+                                <label for="venus">NotFavorite</label><br>
+                            </div>
+                        </div>
+                        
+                        <br>
+                    
+                        <div id="earth" class="card">
+                            <p>Earth</p>
+                                    <img src="images/The_Earth.jpg" alt="earth" style="width: 100%;">
+                            <div class="container">
+                                <input type="radio" id="earth" name="earth" value="Favourite">
+                                <label for="earth">Favorite</label>
+                                <input type="radio" id="earth" name="earth" value="NotFavorite">
+                                <label for="earth">NotFavorite</label><br>
+                            </div>
+                        </div>
+                        
+                        <br>
+
+                        <div id="mars" class="card">
+                            <p>Mars</p>
+                            <img src="images/Mars.jpg" alt="mars" style="width: 100%;">
+                            <div class="container">
+                                <input type="radio" id="mars" name="mars" value="Favourite">
+                                <label for="mars">Favorite</label>
+                                <input type="radio" id="mars" name="mars" value="NotFavorite">
+                                <label for="mars">NotFavorite</label><br>
+                            </div>
+                        </div>
+                        
+                        <br>
+                        <div id="ceres" class="card">
+                            <p>Ceres</p>
+                            <img src="images/Ceres.jpg" alt="ceres" style="width: 100%;">
+                            <div class="container">
+                                <input type="radio" id="ceres" name="ceres" value="Favourite">
+                                <label for="ceres">Favorite</label>
+                                <input type="radio" id="ceres" name="ceres" value="NotFavorite">
+                                <label for="ceres">NotFavorite</label><br>
+                            </div>
+                        </div>
+                        
+                        <br>
+
+                        <div id="jupiter" class="card">
+                            <p>Jupiter</p>
+                            <img src="images/Jupiter.jpg" alt="jupiter" style="width: 100%;">
+                            <div class="container">
+                                <input type="radio" id="jupiter" name="jupiter" value="Favourite">
+                                <label for="jupiter">Favorite</label>
+                                <input type="radio" id="jupiter" name="jupiter" value="NotFavorite">
+                                <label for="jupiter">NotFavorite</label><br>
+                            </div>
+                        </div>
+                        
+                        <br>
+                        
+                        <div id="saturn" class="card">
+                            <p>Saturn</p>
+                            <img src="images/saturn.webp" alt="saturn" style="width: 100%;">
+                            <div class="container">
+                                <input type="radio" id="saturn" name="saturn" value="Favourite">
+                                <label for="saturn">Favorite</label>
+                                <input type="radio" id="saturn" name="saturn" value="NotFavorite">
+                                <label for="saturn">NotFavorite</label><br>
+                            </div>
+                        </div>
+                        
+                        <br>
+
+                        <div id="pluto" class="card">
+                            <p>Pluto</p>
+                            <img src="images/pluto.jpg" alt="pluto" style="width: 100%;">
+                            <div class="container">
+                                <input type="radio" id="pluto" name="pluto" value="Favourite">
+                                <label for="pluto">Favorite</label>
+                                <input type="radio" id="pluto" name="pluto" value="NotFavorite">
+                                <label for="pluto">NotFavorite</label><br>
+                            </div>
+                        </div>
+                        
+                        <br>
+
+                        <div id="haumea" class="card">
+                            <p>Haumea</p>
+                            <img src="images/haumea.jpg" alt="haumea" style="width: 100%;">
+                            <div class="container">
+                                <input type="radio" id="haumea" name="haumea" value="Favourite">
+                                <label for="haumea">Favorite</label>
+                                <input type="radio" id="haumea" name="haumea" value="NotFavorite">
+                                <label for="haumea">NotFavorite</label><br>
+                            </div>
+                        </div>
+                        
+                        <br>
+
+                        <div id="makemake" class="card">
+                            <p>Makemake</p>
+                            <img src="images/makemake.jpg" alt="makemake" style="width: 100%;">
+                            <div class="container">
+                                <input type="radio" id="makemake" name="makemake" value="Favourite">
+                                <label for="makemake">Favorite</label>
+                                <input type="radio" id="makemake" name="makemake" value="NotFavorite">
+                                <label for="makemake">NotFavorite</label><br>
+                            </div>
+                        </div>
+                        
+                        <br>
+
+                        <div id="eris" class="card">
+                            <p>Eris</p>
+                            <img src="images/eris1142a.jpg" alt="eris" style="width: 100%;">
+                            <div class="container">
+                                <input type="radio" id="eris" name="eris" value="Favourite">
+                                <label for="eris">Favorite</label>
+                                <input type="radio" id="eris" name="eris" value="NotFavorite">
+                                <label for="eris">NotFavorite</label><br>
+                            </div>
+                        </div> <br>
+
+                     <a href="#top">Back To Top</a>       
+
+        </div>  
+        <div id="Favouritelist" class="tabcontent">
+            <h3>Your Favourite Planets are :</h3>
+            <div id="fl">
+               
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

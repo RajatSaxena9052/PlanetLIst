@@ -1,0 +1,69 @@
+* {box-sizing: border-box}
+a{
+  
+  font-size: 30px;
+}
+a:hover{
+  color: #FF0000;
+}
+body{
+  height: 100%;
+  margin:0;
+}
+#planetlist{
+  background-color: rgb(235, 214, 235);
+}
+#Favouritelist{
+  background-color: yellowgreen;
+}
+#fl{
+  text-align: center;
+  padding-left: 30%;
+  padding-right:30% ;  
+  text-transform: capitalize;
+}
+.tab{
+background-color:#FF0000;
+color:white;
+cursor: pointer;
+width: 25%;
+padding: 14px 16px;
+border: none;
+font-size: 17px;
+outline: none;
+}
+.tab:hover{
+  background-color:#663399;
+}
+.tabcontent{
+  display: none;
+  height: 100%;
+  width: 100%;
+}
+P{
+    text-align: center;
+    color: rgb(212, 69, 69);
+    size: 50px;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    text-align: center;
+    margin:auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.2s;
+    width: 50%;
+    background-color: burlywood;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  h2,h3{
+    text-align: center;
+  }
